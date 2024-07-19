@@ -1,2 +1,9 @@
-# webssh-freebsd
-webssh-freebsd
+# txt-imgurl-view
+
+## 部署
+1. 直接复制worker.js的代码到cf
+2. 替换文件中的`TXT_FILE_URL`为自己的`txt`文件地址
+> 这里本来是想弄一个长传文件把数据存到`kv`的，奈何数据量是在是太大 我又懒得弄分批次上传 所以我是直接把`txt`传到了自己搭建的alist上
+3. 部署添加自定义域或直接访问workers地址即可
+
+## 需要压缩包的自取 解压密码懂得都懂
